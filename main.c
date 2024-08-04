@@ -16,9 +16,9 @@
 
 int main(void) {
   InitWindow(INIT_WIDTH, INIT_HEIGHT, "Metaballs");
-  SetTargetFPS(FPS);
+  // SetTargetFPS(FPS);
 
-  Image imBlank = GenImageColor(1280, 720, BLANK);
+  Image imBlank = GenImageColor(INIT_WIDTH, INIT_HEIGHT, BLANK);
   Texture2D texture = LoadTextureFromImage(imBlank);
   UnloadImage(imBlank);
 
