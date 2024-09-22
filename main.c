@@ -1,6 +1,4 @@
 #include <assert.h>
-#include <errno.h>
-#include <math.h>
 #include <raylib.h>
 #include <stdbool.h>
 #include <stddef.h>
@@ -16,7 +14,7 @@
 
 int main(void) {
   InitWindow(INIT_WIDTH, INIT_HEIGHT, "Metaballs");
-  // SetTargetFPS(FPS);
+  SetTargetFPS(FPS);
 
   Image imBlank = GenImageColor(INIT_WIDTH, INIT_HEIGHT, BLANK);
   Texture2D texture = LoadTextureFromImage(imBlank);
