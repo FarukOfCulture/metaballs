@@ -8,7 +8,7 @@
 
 #define INIT_WIDTH 1280
 #define INIT_HEIGHT 720
-#define FPS 60
+#define FPS 144
 #define BG_COLOR BEIGE
 #define FG_COLOR BLACK
 
